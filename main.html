@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="app/css/bootstrap.css">
+    <link rel="stylesheet" href="app/css/bootstrap-theme.css">
+
+</head>
+
+<body class="container">
+
+    <h1 class="text-center">Lista de Compras</h1>
+
+    <div class="text-center">
+        <button class="btn btn-primary text-center" type="button" href="criarLista.html">
+            Criar
+        </button>
+        <button class="btn btn-primary text-center" type="button">
+            Pesquisar
+        </button>
+    </div>
+    <br>
+    <br>
+
+    <script src="app/models/Compra.js"></script>
+    <script src="app/models/Produto.js"></script>
+    <script src="app/controllers/ProdutoController.js"></script>
+    <script>
+        let produtoController = new ProdutoController()
+    </script>
+</body>
+
+</html>
