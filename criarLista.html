@@ -11,7 +11,7 @@
 
 <body class="container">
 
-    <h1 class="text-center">Lista de Compras</h1>
+    <h1 class="text-center">Criar Lista</h1>
 
 
     <form class="form" onsubmit="produtoController.adiciona(event)">
@@ -41,26 +41,12 @@
         <button class="btn btn-primary text-center" type="button">
             Apagar
         </button>
+        <a href="main.html">
+            <button class="btn btn-primary text-center" type="button">Voltar</button>
+        </a>
     </div>
     <br>
     <br>
-
-    <table class="table table-hover table-bordered">
-        <thead>
-            <tr>
-                <th>ID_COMPRA</th>
-                <th>NOME</th>
-                <th>QUANTIDADE</th>
-                <th>PREÇO</th>
-            </tr>
-        </thead>
-
-        <tbody>
-        </tbody>
-
-        <tfoot>
-        </tfoot>
-    </table>
 
     <script src="app/models/Compra.js"></script>
     <script src="app/models/Produto.js"></script>
